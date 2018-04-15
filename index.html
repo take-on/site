@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Take On</title>
+      <link rel='stylesheet' href='scripts/layout.css'>
+       <link rel='icon' type='image/png' href='./images/logo.png'/>
+   </head>
+   <body>
+      <div id='header'>
+         <a href='#'><img id='header-logo' src='./images/logo.png' alt='logo' width='40px' style='margin-top: -10px;'/ ></a>
+         <nav id='navigation-menu' style="word-spacing: 50px;">
+            <a href='#'>Home</a>
+            <a href='#row-2'>About</a>
+            <a href='#row-3'>Team</a>
+            <a href='#row-4'>Contact</a>
+         </nav>
+      </div>
+      <div id = "row-1">
+         <div class='background-blur'></div>
+         <div class='background-image'></div>
+         <div id='jumbotron'>
+            <img src="images/logo-03.png"  alt='logo' id='jumbotron-logo'/>
+            <h1>Connecting Great Minds To Great Purpose.</h1>
+         </div>
+      </div>
+      <!-- About us  -->
+      <div id='row-2'>
+         <div class="col-1">
+            <div id='company-bio'>
+               <h1>About the company</h1>
+               <p> The company is a new startup aiming to disrupt the current ways in which companies recruit.</p>
+            </div>
+         </div>
+         <!-- Vision and why choosing us  -->
+         <div class ="col-2">
+            <div class='background-blur'></div>
+            <div class='background-image'></div>
+            <div id='more-info'>
+               <h2>Our vision</h2>
+               <p>Here at Take On, we take great minds and we connect them to great purpose.</p>
+               <h2>Why chose us?</h2>
+               <p>We are a team of programmers with a strong vision of a better digital world. We want to make the application process to be faster and simple for both the graduates and the company. Using powerful algorithms, we will provide graduates with the best career choices. We also want the graduates to get a feel of the company, developing an interpersonal relationship with them. </p>
+               <h2> Why not do it yourself?</h2>
+               <p>You can't do that hey.</p>
+            </div>
+         </div>
+      </div>
+      <!--The team and their bio  -->
+      <div id="row-3">
+         <h1>The Team</h1>
+         <div class = "team-bio">
+            <div class='person-bio'>
+               <div class= 'bio-image-container'>
+                  <img class='bio-image' src ="images/Alan.JPG" alt="No image"/> 
+               </div>
+               <h3>Alan Nyanhete</h3>
+               <p>Alan is a talented developer and an exceptional leader. His skills are of great asset to any project he puts his mind into and will lead the graduates to a better future.</p>
+               <a href="https://www.linkedin.com/in/alan-nyanhete-9491b854">
+               <img border="0" alt="No image" src="images/linkedin.jpg" width="20" height="20"></a>
+            </div>
+         </div>
+         <div class = "team-bio">
+            <div class='person-bio'>
+               <div class= 'bio-image-container'>
+                  <img class='bio-image' src ="images/Daniel.JPG" alt="No image"/> 
+               </div>
+               <h3>Daniel Mabaso</h3>
+               <p>Daniel loves design. With a strong entrepreneurial background and knack for code, he built his design company from the ground up. Now he's with us ready to take graduates to the next level.
+               </p>
+               <a href="https://www.linkedin.com/in/daniel-t-mabaso">
+               <img border="0" alt="No image" src="images/linkedin.jpg" width="20" height="20"></a>
+            </div>
+         </div>
+         <div class = "team-bio">
+            <div class='person-bio'>
+               <div class= 'bio-image-container'>
+                  <img class='bio-image' src ="images/Jethro.JPG" alt="No image"/> 
+               </div>
+               <h3>Jethro Moller</h3>
+               <p>A driven developer with a passion for people with a love for all things tech. He's currently finishing off his final year in Computer Science and can't wait to take the next generation of grads to greatness.</p>
+               <a href="https://www.linkedin.com/in/jethro-m%C3%B6ller-7a4800124">
+               <img border="0" alt="No image" src="images/linkedin.jpg" width="20" height="20"></a>
+            </div>
+         </div>
+         <div class = "team-bio">
+            <div class='person-bio'>
+               <div class= 'bio-image-container'>
+                  <img class='bio-image' src ="images/Sbo.JPG" alt="No image"/> 
+               </div>
+               <h3>Sbonelo Mntungwa</h3>
+               <p>With his rapid thinking and unbelievable creative skills, Sbonelo is able to produce magic in his work. This young aspiring computer engineer has a burning desire to bring change and growth for Take-On and their clients.</p>
+               <a href="https://www.linkedin.com/in/sbonelo-mntungwa-b5b084107">
+               <img border="0" alt="No image" src="images/linkedin.jpg" width="20" height="20"></a>
+            </div>
+         </div>
+         <div class = "team-bio">
+            <div class='person-bio'>
+               <div class= 'bio-image-container'>
+                  <img class='bio-image' src ="images/Takunda.JPG" alt="No image"/> 
+               </div>
+               <h3>Takunda Chikondo</h3>
+               <p>Takunda is a problem solver and enjoys working on cutting-edge projects. He will provide graduates with remarkable opportunities and elevates Tech-On to the highest point.</p>
+               <a href="https://www.linkedin.com/in/takunda-chikondo-aa537773">
+               <img border="0" alt="No image" src="images/linkedin.jpg" width="20" height="20"></a>
+            </div>
+         </div>
+      </div>
+      <!--Contact us  -->
+      <div id= "row-4">
+         <div class='col-1'>
+            <form  action="mailto:info@take-on.tech" id='contact-form' method='post' enctype="text/plain" >
+               <h1>Contact</h1>
+               <input class='form-input' type="text" placeholder="Name" required name="Name"/><br/>
+               <input class='form-input' type="text" placeholder="Email" required name="Email"/><br/>
+               <input class='form-input' type="text" placeholder="Subject" required name="Subject"/><br/>
+               <textarea class='form-input' rows="10" placeholder='Message' required></textarea>
+               <br/>
+               <input class='button' type="submit" value='Send' name='submit'/>
+            </form>
+         </div>
+         <div class='col-2'>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.388831613288!2d18.45887531498262!3d-33.95684413063204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5d3c92c7767f%3A0x3e005944ef1806c2!2sComputer+Science+Building%2C+18+University+Ave+N%2C+Rondebosch%2C+Cape+Town%2C+7700!5e0!3m2!1sen!2sza!4v1523810295532" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+         </div>
+      </div>
+      <!-- Footer -->
+      <div id='footer'>
+         Copyright© 2018
+      </div>
+   </body>
+</html>

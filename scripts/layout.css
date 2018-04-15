@@ -1,0 +1,284 @@
+
+
+/*css for TakeOn Website*/
+/*default css for all screens*/
+
+html, body, container{
+  margin: 0px;
+  padding: 0px;
+  
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  width: 100%;
+  height: 100%;
+  
+  color: white;
+  
+  font-family: sans-serif;
+}
+
+body{
+   background-image:url('../images/mt.jpg');
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-attachment: fixed;
+   }
+
+[id*="row-"]{
+  position: relative;
+  margin: 0px;
+  width: 100%;
+  height: 200px;
+  
+  overflow: hidden;
+}
+#jumbotron h1{
+    text-align: center;
+    font-weight: 100;
+    font-family: helvetica;
+    font-size: 40px;
+}
+#jumbotron-logo{
+    width: 820px;
+    text-align: left;
+    margin-top: 50px
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.background-blur{
+   position: absolute;
+   z-index: -1;
+   opacity: 0.7;
+   background-color: black;
+   
+   width: 100%;
+   height: 100%;
+}
+
+.background-image{
+   position: absolute;
+   z-index: -2;
+   width: 100%;
+   height: 100%;
+   
+   background-image:url('../images/uct1.jpg');
+   background-repeat:no-repeat;
+   background-size:cover;
+}
+ 
+
+@media only screen and (max-width: 400px){
+  /*css for portrait mobile screen*/
+   
+  #row-1{
+      height: 768px;
+  }
+  #row-2{
+      height: 768px;
+  }
+  #row-3{
+      height: 500px;
+  }
+  #row-4{
+      height: 768px;
+  }
+  #row-5{
+      height: 400px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 736px){
+  /*css for landscape mobile screen*/
+   
+  #row-1{
+      height: 768px;
+  }
+  #row-2{
+      height: 500px;
+  }
+  #row-3{
+      height: 768px;
+  }
+  #row-4{
+      height: 400px;
+  }
+  #row-5{
+      height: 400px;
+  }
+}
+@media only screen and (min-width: 736px) and (max-width: 1080px){
+  /*css for tablet screen*/
+   
+  #row-1{
+      height: 768px;
+  }
+  #row-2{
+      height: 500px;
+  }
+  #row-3{
+      height: 768px;
+  }
+  #row-4{
+      height: 400px;
+  }
+  #row-5{
+      height: 400px;
+  }
+}
+@media only screen and (min-width: 1080px){
+  /*css for desktop screen*/
+  
+  #row-1{
+      height: 768px;
+  }
+  #row-2{
+      
+      height: 500px;
+  }
+  #row-3{
+      height: 1100px;
+   text-align: center;
+      background-color: #eeee;
+      color: black;
+  }
+  #row-4{
+      height: 450px;
+  }
+  #row-5{
+      height: 400px;
+  }
+  
+  
+ 
+  
+  .col-1, .col-2{
+     width: 50%;
+     height: 100%;
+     float:left;
+  }
+  
+  #row-2 .background-image{
+   background-image:url('../images/am2.jpg');
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-blend-mode: lighten;
+  }
+	#company-bio{
+		height: 260px;
+		width: 400px;
+		margin: 0 auto;
+		margin-top: 100px;
+        overflow: hidden;
+        padding: 20px;
+        
+        //*<--!background-image:url('../images/bg1.jpg');-->*//
+        background-repeat:no-repeat;
+        background-size:cover
+	}
+    
+    #more-info{
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    }
+
+.team-bio{
+   height: 450px;
+   width: 33%;
+   float: left;
+}
+  
+.person-bio{
+   width: 340px;
+   margin: 0 auto;
+   height: 420px;
+   
+   margin-top: 15px;
+   background-color: white;
+   color: #282828;
+   
+   box-shadow: 2px 2px 3px 0px #282828;
+   
+}
+
+.bio-image-container{
+   height: 200px;
+   width: 100%;
+   background-color: gray;
+   overflow: hidden;
+}
+.bio-image{width: 100%;}
+  
+}
+
+#footer{
+
+width: 100%;
+height: 22px;
+font-size: 12px;
+padding-top: 10px;
+text-align: center;
+color: white;
+background-color: #4b4b4b;}
+
+#header{
+   width: 100%;
+   height: 30px;
+   padding-top: 10px;
+   background-color: white;
+   color: #2b2b2b;
+   position: fixed;
+   z-index: 90;
+   box-shadow: 1px 1px 2px 2px #2b2b2b;
+}
+#navigation-menu{
+padding-top: 5px;
+float: right;
+margin-right: 70px;
+}
+
+
+#header-logo{
+float: left;
+margin-left: 70px;
+}
+
+#row-3 h1{
+   margin-top: 50px;
+}
+
+#contact-form{
+font-family: sans-serif;
+width: 250px;
+height: 400px;
+margin-left: 90px;
+text-align: center;
+}
+
+.form-input{
+   padding: 10px;
+font-family: sans-serif;
+   margin: 5px;
+   width: 250px;
+   border: none;
+   box-shadow: 1px 1px 1px 1px #2b2b2b;
+}
+
+#contact-form .button{
+   width: 150px;
+   border: none;
+   padding: 10px;
+   color: #eee;
+   background-color: #2b2b2b;
+   margin: 0 auto;
+}
+
+.button:hover{
+cursor: pointer;
+}
