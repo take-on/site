@@ -72,63 +72,502 @@ a{
    background-size:cover;
 }
  
+ 
+#header{
+   width: 100%;
+   height: 30px;
+   padding-top: 10px;
+   background-color: white;
+   color: #2b2b2b;
+   position: fixed;
+   z-index: 90;
+   box-shadow: 1px 1px 2px 2px #2b2b2b;
+}
 
+.linkedin-icon{
+	width: 25px;
+}
 @media only screen and (max-width: 400px){
   /*css for portrait mobile screen*/
-   
+  #jumbotron h1{
+    font-size: 30px;
+	margin-top:-30px;
+}
+#jumbotron-logo{
+    width: 340px;
+    text-align: left;
+    margin-top: 220px
+}
   #row-1{
-      height: 768px;
+      height: 700px;
   }
   #row-2{
-      height: 768px;
+      
+      height: 1000px;
   }
   #row-3{
-      height: 500px;
+      height: 3150px;
+	  text-align: center;
+      background-color: #eeee;
+      color: black;
   }
   #row-4{
-      height: 768px;
+      height: 1150px;
   }
   #row-5{
       height: 400px;
   }
+  
+.linkedin-icon{
+	width: 50px;
+}
+  
+  #row-2 .background-image{
+   background-image:url('../images/am2.jpg');
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-blend-mode: lighten;
+  }
+	#company-bio{
+		height: 350px;
+		width: 310px;
+		margin: 0 auto;
+		margin-top: 10px;
+        overflow: hidden;
+        padding: 20px;
+		
+		font-size: 20px;
+        
+        //*<--!background-image:url('../images/bg1.jpg');-->*//
+        background-repeat:no-repeat;
+        background-size:cover
+	}
+    
+    #more-info{
+    width: 310px;
+    margin: 0 auto;
+    padding: 20px;
+	font-size: 20px;
+    }
+
+.team-bio{
+   height: 595px;
+   width: 100%;
+   float: left;
+}
+  
+.person-bio{
+   width: 320px;
+   margin: 0 auto;
+   height: 580px;
+   
+   margin-top: 15px;
+   background-color: white;
+   color: #282828;
+   
+   box-shadow: 2px 2px 3px 0px #282828;
+   
+}
+.team-bio p{
+	padding: 20px;
+	font-size: 20px;
+}
+
+.bio-image-container{
+   height: 200px;
+   width: 100%;
+   background-color: gray;
+   overflow: hidden;
+}
+.bio-image{width: 100%;}
+  
+#footer{
+
+width: 100%;
+height: 22px;
+font-size: 12px;
+padding-top: 10px;
+text-align: center;
+color: white;
+background-color: #4b4b4b;}
+
+#navigation-menu{
+padding-top: 5px;
+margin: 0 auto;
+margin-left:30px;
+font-size: 12px;
+}
+
+
+#header-logo{display: none;
+}
+
+#row-3 h1{
+   margin-top: 50px;
+}
+
+#contact-form{
+font-family: sans-serif;
+width: 300px;
+height: 500px;
+margin: 0 auto;
+margin-top: 15px;
+text-align: center;
+}
+
+.form-input{
+   padding: 10px;
+font-family: sans-serif;
+   margin: 10px;
+   width: 270px;
+   border: none;
+   font-size: 20px;
+   box-shadow: 1px 1px 1px 1px #2b2b2b;
+}
+
+#contact-form .button{
+   width: 150px;
+   border: none;
+   padding: 10px;
+   color: #eee;
+   background-color: #2b2b2b;
+   margin: 10 auto;
+}
+
+.button:hover{
+cursor: pointer;
+}
+
+[class*="col-"]{
+	width:100%;
+	height: 440px;
+}
+#row-4 [class*="col-"]{
+	width:100%;
+	height: 620px;
+}
 }
 @media only screen and (min-width: 400px) and (max-width: 736px){
   /*css for landscape mobile screen*/
-   
+    
+.linkedin-icon{
+	width: 40px;
+}
+  #jumbotron h1{
+    font-size: 30px;
+	margin-top:-30px;
+}
+#jumbotron-logo{
+    width: 500px;
+    text-align: center;
+    margin-top: 40px
+}
   #row-1{
-      height: 768px;
+      height: 400px;
   }
   #row-2{
-      height: 500px;
+      
+      height: 960px;
   }
   #row-3{
-      height: 768px;
+      height: 2900px;
+   text-align: center;
+      background-color: #eeee;
+      color: black;
   }
   #row-4{
-      height: 400px;
+      height: 1150px;
   }
   #row-5{
       height: 400px;
   }
+  
+  
+  #row-2 .background-image{
+   background-image:url('../images/am2.jpg');
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-blend-mode: lighten;
+  }
+	#company-bio{
+		height: 350px;
+		width: 400px;
+		margin: 0 auto;
+		margin-top: 30px;
+        overflow: hidden;
+        padding: 20px;
+		
+		font-size: 20px;
+        
+        //*<--!background-image:url('../images/bg1.jpg');-->*//
+        background-repeat:no-repeat;
+        background-size:cover
+	}
+    
+    #more-info{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+	font-size: 20px;
+    }
+
+.team-bio{
+   height: 550px;
+   width: 100%;
+   float: left;
+}
+  
+.person-bio{
+   width: 350px;
+   margin: 0 auto;
+   height: 530px;
+   
+   margin-top: 15px;
+   background-color: white;
+   color: #282828;
+   
+   box-shadow: 2px 2px 3px 0px #282828;
+   
+}
+.team-bio p{
+	padding: 20px;
+	font-size: 20px;
+	height: 150px;
+}
+
+.bio-image-container{
+   height: 200px;
+   width: 100%;
+   background-color: gray;
+   overflow: hidden;
+}
+.bio-image{width: 100%;}
+  
+#footer{
+
+width: 100%;
+height: 22px;
+font-size: 12px;
+padding-top: 10px;
+text-align: center;
+color: white;
+background-color: #4b4b4b;}
+
+#navigation-menu{
+padding-top: 5px;
+float: right;
+margin-right: 70px;
+}
+
+
+#header-logo{
+float: left;
+margin-left: 70px;
+}
+
+#row-3 h1{
+   margin-top: 50px;
+}
+
+#contact-form{
+font-family: sans-serif;
+width: 500px;
+height: 500px;
+margin: 0 auto;
+margin-top: 15px;
+text-align: center;
+}
+
+.form-input{
+   padding: 10px;
+font-family: sans-serif;
+   margin: 10px;
+   width: 500px;
+   border: none;
+   font-size: 20px;
+   box-shadow: 1px 1px 1px 1px #2b2b2b;
+}
+
+#contact-form .button{
+   width: 150px;
+   border: none;
+   padding: 10px;
+   color: #eee;
+   background-color: #2b2b2b;
+   margin: 10 auto;
+}
+
+.button:hover{
+cursor: pointer;
+}
+
+[class*="col-"]{
+	width:100%;
+	height: 410px;
+}
+#row-4 [class*="col-"]{
+	width:100%;
+	height: 620px;
+}
 }
 @media only screen and (min-width: 736px) and (max-width: 1080px){
   /*css for tablet screen*/
    
+.linkedin-icon{
+	width: 40px;
+}
+
   #row-1{
       height: 768px;
   }
   #row-2{
-      height: 500px;
+      
+      height: 700px;
   }
   #row-3{
-      height: 768px;
+      height: 1800px;
+   text-align: center;
+      background-color: #eeee;
+      color: black;
   }
   #row-4{
-      height: 400px;
+      height: 1150px;
   }
   #row-5{
       height: 400px;
   }
+  
+  
+ 
+  
+  .col-1, .col-2{
+     width: 50%;
+     height: 100%;
+     float:left;
+  }
+  
+  #row-2 .background-image{
+   background-image:url('../images/am2.jpg');
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-blend-mode: lighten;
+  }
+	#company-bio{
+		height: 570px;
+		width: 200px;
+		margin: 0 auto;
+		margin-top: 30px;
+        overflow: hidden;
+        padding: 20px;
+		
+		font-size: 20px;
+        
+        //*<--!background-image:url('../images/bg1.jpg');-->*//
+        background-repeat:no-repeat;
+        background-size:cover
+	}
+    
+    #more-info{
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+	font-size: 20px;
+    }
+
+.team-bio{
+   height: 550px;
+   width: 49%;
+   float: left;
+}
+  
+.person-bio{
+   width: 350px;
+   margin: 0 auto;
+   height: 530px;
+   
+   margin-top: 15px;
+   background-color: white;
+   color: #282828;
+   
+   box-shadow: 2px 2px 3px 0px #282828;
+   
+}
+.team-bio p{
+	padding: 20px;
+	font-size: 20px;
+	height: 130px;
+}
+
+.bio-image-container{
+   height: 200px;
+   width: 100%;
+   background-color: gray;
+   overflow: hidden;
+}
+.bio-image{width: 100%;}
+  
+#footer{
+
+width: 100%;
+height: 22px;
+font-size: 12px;
+padding-top: 10px;
+text-align: center;
+color: white;
+background-color: #4b4b4b;}
+
+#navigation-menu{
+padding-top: 5px;
+float: right;
+margin-right: 70px;
+}
+
+
+#header-logo{
+float: left;
+margin-left: 70px;
+}
+
+#row-3 h1{
+   margin-top: 50px;
+}
+
+#contact-form{
+font-family: sans-serif;
+width: 500px;
+height: 500px;
+margin: 0 auto;
+margin-top: 15px;
+text-align: center;
+}
+
+.form-input{
+   padding: 10px;
+font-family: sans-serif;
+   margin: 10px;
+   width: 500px;
+   border: none;
+   font-size: 20px;
+   box-shadow: 1px 1px 1px 1px #2b2b2b;
+}
+
+#contact-form .button{
+   width: 150px;
+   border: none;
+   padding: 10px;
+   color: #eee;
+   background-color: #2b2b2b;
+   margin: 10 auto;
+}
+
+.button:hover{
+cursor: pointer;
+}
+
+#row-4 [class*="col-"]{
+	width:100%;
+	height: 650px;
+}
 }
 @media only screen and (min-width: 1080px){
   /*css for desktop screen*/
@@ -207,6 +646,12 @@ a{
    
 }
 
+.team-bio p{
+	padding: 15px;
+	padding-bottom: 5px;
+	height: 85px;
+}
+
 .bio-image-container{
    height: 200px;
    width: 100%;
@@ -215,8 +660,6 @@ a{
 }
 .bio-image{width: 100%;}
   
-}
-
 #footer{
 
 width: 100%;
@@ -227,16 +670,6 @@ text-align: center;
 color: white;
 background-color: #4b4b4b;}
 
-#header{
-   width: 100%;
-   height: 30px;
-   padding-top: 10px;
-   background-color: white;
-   color: #2b2b2b;
-   position: fixed;
-   z-index: 90;
-   box-shadow: 1px 1px 2px 2px #2b2b2b;
-}
 #navigation-menu{
 padding-top: 5px;
 float: right;
@@ -281,4 +714,5 @@ font-family: sans-serif;
 
 .button:hover{
 cursor: pointer;
+}
 }
